@@ -337,10 +337,20 @@ nav a:hover {
     box-shadow: 0 20px 45px rgba(0,0,0,0.13);
 }
 
-.exhibition-icon {
-    font-size: 55px;
-
+.exhibition-image {
+    width: 100%;
+    height: 160px;
+    border-radius: 18px;
+    overflow: hidden;
     margin-bottom: 20px;
+}
+
+.exhibition-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
 }
 
 .exhibition-card h3 {
@@ -756,7 +766,9 @@ footer strong {
 
         <div class="exhibition-card">
 
-            <div class="exhibition-icon">⭐</div>
+        <div class="exhibition-image">
+    <img src="images/bac-ho.jpg" alt="Hình ảnh Chủ tịch Hồ Chí Minh">
+</div>
 
             <h3>Học tập và làm theo Bác</h3>
 
